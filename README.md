@@ -1,3 +1,4 @@
-# pkg meta db
+# pkDB
 
-Tools to fetch licenses and package metadata for Debian based Ones
+
+**Utilites to fetch licenses and package metadata for Debian based OSes**
