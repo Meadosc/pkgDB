@@ -8,3 +8,8 @@ of packages for which license information is not found anywhere else, the output
 the `./data/db/packages.db`
 - `restapi.py` - A REST interface for the packages database, a sample database is already part of the repo, and this API interface
 could be a goodl place to start to see the structure of the db.
+
+**TODO(unrahul):**
+
+- add a  runner.py to call the first 3 scripts to build the database
+- add a cli for the over-all project to call the runner or instantiate the REST service. 
