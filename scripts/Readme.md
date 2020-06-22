@@ -1,4 +1,4 @@
-## Scripts to do bookkeeping and init
+## Scripts to do book keeping and init
 
 - `./create_db.sh` - Create a sqlite db according to schema
 - `./download_pkgs_meta.sh` - Download pkg meta from Ubuntu servers
