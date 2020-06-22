@@ -5,5 +5,5 @@
 - `./run_api_server.sh` - Run a RESTAPI server to interface with the packages.db (`../src/pkgDB/data/db/packages.db`)
 
 
-*****TODO(unrahul):**
+**TODO(unrahul):**
 - Modify the script to download for multiple ubuntu versions
