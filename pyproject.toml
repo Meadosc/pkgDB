@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pkgdb"
+version = "0.1.0"
+description = "debian pkg metadata database and a REST API"
+authors = ["rahulunair <rahulunair@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.24.0"
+tqdm = "^4.46.1"
+beautifulsoup4 = "^4.9.1"
+starlette = "^0.13.4"
+tortoise-orm = "^0.16.13"
+aiosqlite = "^0.13.0"
+uvicorn = "^0.11.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
