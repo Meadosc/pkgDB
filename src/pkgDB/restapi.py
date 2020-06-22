@@ -1,7 +1,6 @@
 import logging
 from json import JSONDecodeError
 
-from models import Binaries, Sources
 from starlette.applications import Starlette
 from starlette.exceptions import HTTPException
 from starlette.requests import Request
@@ -9,6 +8,8 @@ from starlette.responses import JSONResponse as Response
 from starlette.status import HTTP_201_CREATED, HTTP_400_BAD_REQUEST
 from tortoise.contrib.starlette import register_tortoise
 from uvicorn.main import run
+
+from models import Binaries, Sources
 
 logging.basicConfig(level=logging.DEBUG)
 app = Starlette()
@@ -32,7 +33,7 @@ async def sources_list_names(request: Request) -> Response:
 
 
 register_tortoise(
-    app, db_url="sqlite://packages.db", modules={"models": ["models"]},
+    app, db_url="sqlite://data/db/packages.db", modules={"models": ["models"]},
 )
 
 if __name__ == "__main__":
