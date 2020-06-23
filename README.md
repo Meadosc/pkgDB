@@ -3,8 +3,8 @@
 **Utilites to fetch licenses and package metadata for Debian based OSes**
 
 I built this tool over a weekend sometime back, because it was difficult to figure out the license information of all
-packages in Ubuntu in a clean form, and I wanted to experiment with few things, hope it is useful you, kindly raise a
-PR on improvements needed.
+packages in Ubuntu in a clean form, and I wanted to experiment with few things. Hope it is useful you, kindly raise a
+PR or an issue on improvements needed.
 
 pkgDB is a standalone tool that:
 
