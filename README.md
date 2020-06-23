@@ -76,6 +76,27 @@ The full list of columns is given below:
 The tool has a REST API that can be used to interface with the database, the `scripts` directory has a bash script to set up a local
 packages db to query the database.
 
+ - Run a RESTAPI server to interface with the packages.db (`../src/pkgDB/data/db/packages.db`)
+ 
+```bash
+git clone https://github.com/rahulunair/pkgDB && cd scripts
+./run_api_server.sh
+```
+
+```python
+INFO:     Started server process [1533052]
+INFO:     Waiting for application startup.
+INFO:     Tortoise-ORM startup
+    connections: {'default': {'engine': 'tortoise.backends.sqlite', 'credentials': {'journal_mode': 'WAL', 'journal_size_limit': 16384, 'file_path': 'data/db/packages.db'}}}
+    apps: {'models': {'models': ['models'], 'default_connection': 'default'}}
+INFO:     Tortoise-ORM started, {'default': <tortoise.backends.sqlite.client.SqliteClient object at 0x7fd804c48b20>}, {'models': {'Binaries': <class 'models.Binaries'>, 'Sources': <class 'models.Sources'>}}
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+```
+
+
+
+
 ## Contributions
 
 This is an OSS tool, any contribution is welcome as long as it is benificial to the community as a whole.
