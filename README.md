@@ -13,6 +13,15 @@ pkgDB is a standalone tool that:
 - Populate a databse with the metadata and license information
 - A REST API interface to interact with the database
 
+## How to use?
+
+To try out the database over a REST interface:
+
+```bash
+git clone https://github.com/rahulunair/pkgDB && cd pkgDB/scripts
+./run_api_server.sh
+```
+
 ## Database
 
 This tool populates a package database for all packages in Ubuntu along with its sources. The two primary tables
@@ -79,7 +88,7 @@ packages db to query the database.
  - Run a RESTAPI server to interface with the packages.db (`../src/pkgDB/data/db/packages.db`)
  
 ```bash
-git clone https://github.com/rahulunair/pkgDB && cd scripts
+git clone https://github.com/rahulunair/pkgDB && cd pkgDB/scripts
 ./run_api_server.sh
 ```
 
