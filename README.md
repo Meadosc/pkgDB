@@ -49,7 +49,7 @@ As you can see, it shows the package name, version, os name, version, package li
 The `sources` table like the name suggests has all the metadata information regarding a source package for a binary that 
 can be installedon Ubuntu using `apt`.
 
-![image](./images/binaries.png)
+![image](./images/sources.png)
 
 As you can see, it shows the source package name, version, binary packages associated with the source, os name, version, package license etc.
 The full list of columns is given below:
