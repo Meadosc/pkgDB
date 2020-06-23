@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# ------------------------------------------------
+# Script to download ubuntu source and binary meta
+# ------------------------------------------------
+
 OS=ubuntu
 VERSION=focal
 URL=http://archive.ubuntu.com
